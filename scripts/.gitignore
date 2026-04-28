@@ -1,0 +1,5 @@
+# tsx is installed on demand via `npx tsx` or `npm install --no-save tsx`.
+# These are local-only artifacts — don't commit them.
+node_modules/
+package-lock.json
+package.json
