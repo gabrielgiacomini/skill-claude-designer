@@ -146,3 +146,127 @@ For Tweaks (when the user keeps fiddling with one property):
 - "Review the information hierarchy on the landing page — what's competing for attention?"
 - "Stress-test this on mobile (375px) and tablet (768px). What breaks?"
 - "Suggest 3 small changes that would meaningfully improve this design."
+
+---
+
+## Named style anchors — for when the brief is too vague
+
+When the brief is too vague to execute (*"make a landing page"*, *"design something nice"*, *"I don't know what style I want"*), don't improvise on generic intuition — that's how AI-slop is born. Anchor on a named design language and tell Claude Design which one. Each anchor below is enough to commit to a system without further research.
+
+For a vague brief: propose 2–3 from different schools to the user, let them pick, then drop into the picked anchor's specifics in the prompt.
+
+### Structural modernism
+
+**1. Swiss editorial** (Pentagram / Vignelli lineage)
+- Feeling: precision, authority, editorial gravity. Keywords: *structural · monochrome · grid-disciplined · quiet*.
+- Type: Neue Haas Grotesk / Helvetica Now / GT America / Söhne — one sans, 3–4 sizes, weight contrast via bold not color.
+- Color: near-black on cream / off-white / structured greys; one saturated accent (red, blue, or yellow) used sparingly.
+- Layout: strict grid, horizontal rules, generous negative space, numbered sections.
+- Signature: oversized folio numerals, hairline rules, left-flush headlines, body columns at 12–14 char widths.
+- Right for: editorial, B2B professional services, serious products, data-forward UIs.
+- Avoid: gradients, drop shadows, 3D, blur.
+
+**2. Bauhaus geometric** (Müller-Brockmann / Karel Martens lineage)
+- Feeling: primary, architectural, confident. Keywords: *geometric · primary-color · flat · rhythmic*.
+- Type: geometric sans (Futura, Avenir, PP Neue Montreal), large scale, sometimes rotated 90°.
+- Color: primary red / blue / yellow on black or white; can push to fluorescent (#FF3C00, #0019FF, #F5E100).
+- Layout: circles, squares, triangles as primary composition elements — not decoration.
+- Signature: type-as-shape, giant circular composition anchors, bold diagonal rhythms.
+- Right for: posters, arts programming, cultural identity work.
+- Avoid: photography, 3D perspective.
+
+### Quiet minimalism
+
+**3. Kenya Hara emptiness** (MUJI / Hara lineage)
+- Feeling: quiet, meditative, reverent. Keywords: *generous-whitespace · monochrome · patient · reduced*.
+- Type: delicate serif (Tsukushi Mincho, Chronicle Text) OR a humanist sans at quiet sizes; never loud weights.
+- Color: off-white dominant, single warm neutral or subtle natural color; never pure black — always warm ink or charcoal.
+- Layout: ~70–80% negative space; tiny content islands; precise vertical rhythm.
+- Signature: single object on infinite white, captions smaller than expected, faded grey page numbers.
+- Right for: lifestyle, wellness, high-end product reveals, editorial retreats.
+- Avoid: anything loud, saturated accents, more than 2 type sizes per layout.
+
+**4. Dieter Rams industrial** (Braun / early Apple lineage)
+- Feeling: useful, honest, restrained, quietly confident. Keywords: *honest · functional · neutral · timeless*.
+- Type: utilitarian sans (Akzidenz-Grotesk, Helvetica) at modest sizes.
+- Color: warm neutrals + one signal color (Braun orange, early-Apple aqua); never flashy.
+- Layout: orthogonal, panel-aligned, unornamented; function decides the form.
+- Signature: physical-product photography on neutral seamless, technical line drawings, monospace for specs.
+- Right for: hardware product pages, industrial / B2B catalogs, design-history homages.
+- Avoid: anything that prioritizes mood over utility.
+
+### Editorial / publication
+
+**5. Magazine editorial** (Wired / The Atlantic / Domus lineage)
+- Feeling: long-form, considered, rich. Keywords: *typographic · serif-led · column-rich · captioned*.
+- Type: serif display (Tiempos, Lyon, Domaine) + a clean sans for captions / metadata.
+- Color: cream paper backgrounds, deep ink, occasional spot accent.
+- Layout: 2–3 column body, generous pull quotes, deep captions, intentional figure-frame ratios.
+- Signature: drop caps, pull quotes spanning gutters, photo + caption pairings.
+- Right for: long-form articles, brand stories, annual reports, considered marketing pages.
+
+**6. Zine / risograph** (artist-run small press)
+- Feeling: tactile, hand-made, slightly off-register. Keywords: *limited-palette · halftone · printed · raw*.
+- Type: chunky mono-display (Druk, Adieu, Untitled Sans), often paired with an unhinged hand font.
+- Color: 2–3 punchy colors that look like spot inks (dayglo, saturated blue, ink black).
+- Layout: split-screen, layered, intentionally misaligned by 1–2 px.
+- Signature: halftone textures, paper noise, slight overlap-print color shifts.
+- Right for: artist-led brands, limited drops, indie launches, type-led content.
+- Avoid: corporate contexts where polish matters more than personality.
+
+### Computational / experimental
+
+**7. Field.io computational** (kinetic identity work)
+- Feeling: alive, generative, technical. Keywords: *kinetic · technical · monochrome · WebGL*.
+- Type: monospace and grotesque sans together; specs and IDs are part of the design.
+- Color: high-contrast monochrome with one technical accent (cyan, hot pink, terminal green).
+- Layout: layered, with WebGL or canvas elements that respond to scroll/cursor.
+- Signature: shader gradients that look earned (not decorative), live data overlays, technical readouts.
+- Right for: AI / ML companies, computational tools, art-tech, festivals.
+- Avoid: contexts where audience can't render WebGL or shouldn't be distracted by motion.
+
+**8. Brutalist web** (Read.cv / Are.na lineage)
+- Feeling: raw, unornamented, intentionally awkward. Keywords: *system-font · default-styles · grid-broken · honest*.
+- Type: literally Times New Roman, Arial, or system-ui — no design font at all.
+- Color: one or two flat colors, often default browser blue links underlined.
+- Layout: violates contemporary web convention deliberately — left-aligned, full-width text, no max-width.
+- Signature: visible borders, default form controls, no hover states beyond cursor, no shadows.
+- Right for: artist platforms, anti-corporate manifestos, "real internet" tools.
+- Avoid: anywhere the audience expects polish.
+
+### Maximalist / expressive
+
+**9. Sagmeister expressive** (Sagmeister & Walsh lineage)
+- Feeling: emotional, hand-touched, narrative-led. Keywords: *photographic · type-as-image · expressive · personal*.
+- Type: photography of physical type (chalk, cake, sand, body) as headlines; clean sans for support.
+- Color: high-contrast photographs are the color; minimal UI overlay.
+- Layout: full-bleed photographic spreads with minimal interruption.
+- Signature: handwritten annotations, props as type, body-and-place compositions.
+- Right for: brand storytelling, identity launches, films, exhibitions.
+- Avoid: data-heavy or utility products.
+
+**10. Y2K futurism** (early-2000s revival)
+- Feeling: glossy, optimistic-naive, plastic-shiny. Keywords: *chrome · gradient-glass · fisheye · saturated*.
+- Type: rounded sans (Eurostile, Aktiv Grotesk Round) and the occasional glossy chrome script.
+- Color: candy-saturated, chrome and glass surface treatments, dayglo accents (#FF00FF, #00FFFF).
+- Layout: hero objects in 3D, fisheye-distorted compositions, marquee tickers.
+- Signature: WebGL chrome materials, spinning glossy logos, lens-flare overlays.
+- Right for: nostalgia-aware fashion / music / cultural launches.
+- Avoid: serious contexts, accessibility-critical UIs (contrast often fails).
+
+### How to use these in a Claude Design prompt
+
+When you've picked a style, paste 4 things into your prompt:
+
+1. The style name and one-sentence pitch (anchors Claude immediately).
+2. The 3 keyword vibe (sets tone for variations).
+3. The exact font and color specs from the entry above.
+4. The "Avoid" line, transformed into a forbid-list.
+
+Example, dropped into your prompt as the aesthetic block:
+
+> *"**Style anchor: Swiss editorial** (Pentagram / Vignelli lineage). Vibe: structural · monochrome · grid-disciplined · quiet. Type: Söhne, three sizes only (72/32/16), weight contrast via bold. Color: near-black ink on cream (#F4EFE6); one accent — a saturated red (#D52B1E) used only for call-to-action buttons. Layout: strict 12-column grid, hairline rules between sections, oversized folio numerals starting each section, body columns at 14 char widths max. **Forbid:** gradients, drop shadows, 3D, blur, decorative icons, emoji."*
+
+That paragraph alone — dropped into the `--palette` arg of `build-prompt.ts`, or pasted into the prompt — takes Claude Design from generic "modern web design" output to a specific committed system.
+
+*Named-style framework adapted from [`design-styles.md`](https://github.com/jiji262/claude-design-skill/blob/main/references/design-styles.md) in [jiji262/claude-design-skill](https://github.com/jiji262/claude-design-skill) (MIT). The original includes a 10-page HTML gallery showing each style applied to identical content — see their `demos/style-gallery/` for visual reference.*

@@ -1,6 +1,11 @@
 MIT License
 
-Copyright (c) 2026 the contributors to skill-claude-designer
+Copyright (c) 2026 Gabriel Giacomini and contributors
+
+Portions of this skill (the fact-verification rule, design-principles, brand-asset
+protocol, post-render verification checklist, named design styles, and overall
+craft framing) are adapted from jiji262/claude-design-skill (MIT, 2026), with
+attribution preserved in each adapted file. See ATTRIBUTIONS.md for the full list.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

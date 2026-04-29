@@ -90,9 +90,11 @@ The skill was built from a hands-on walk through the live tool, then exercised a
 - **Cross-project context.** Mention a sibling project by name in the prompt and Claude Design will read its files for visual consistency. Undocumented, but reliable.
 - **Cowork safety rules apply** when an agent operates Claude Design on a user's behalf: downloads need explicit user approval, sharing/access changes are off-limits.
 
-## License
+## License and attribution
 
 MIT — see [LICENSE](./LICENSE).
+
+Substantial portions of the craft layer (fact verification, design principles, brand-asset protocol, post-render verification, named design styles) are adapted from [jiji262/claude-design-skill](https://github.com/jiji262/claude-design-skill) (also MIT). Each adapted file carries an in-place attribution footer; the full mapping is in [ATTRIBUTIONS.md](./ATTRIBUTIONS.md).
 
 ## Provenance
 
