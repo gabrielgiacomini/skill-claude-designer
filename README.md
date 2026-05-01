@@ -1,4 +1,4 @@
-# skill-claude-designer
+# gg-claude-designer
 
 A Claude skill for using **Claude Design** (https://claude.ai/design) — Anthropic Labs' research-preview web tool for prototypes, slide decks, microsites, and presentations — through a Claude agent.
 
@@ -14,7 +14,7 @@ Drop the skill folder into your Claude skills directory. Concretely:
 
 ```bash
 # clone next to your other skills (adjust path for your platform)
-git clone https://github.com/gabrielgiacomini/skill-claude-designer.git ~/.claude/skills/claude-designer
+git clone https://github.com/gabrielgiacomini/gg-claude-designer.git ~/.claude/skills/claude-designer
 
 # the agent picks it up via the SKILL.md frontmatter "name" field
 ```
