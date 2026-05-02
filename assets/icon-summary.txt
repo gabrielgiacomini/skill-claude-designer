@@ -1,11 +1,14 @@
-Designing
+**The Four Questions**
+1. Verb: sketch
+2. Object: a magic easel that listens to what you say and draws it in real-time
+3. Animal: a parrot that doesn't just repeat words back at you but actually turns them into pictures — it hears "blue button with a rocket" and somehow manifests a blue button with a rocket
+4. Most annoying manual task: waiting 30 seconds between each tiny change while a robot slowly types "generating your design... (30s)... here's your updated button, want me to move it 2 pixels to the left?"
 
-A digital fab shop
+**The Reality**
+This skill is basically a magical art assistant that lives in your browser. You tell it what you want — "make me a landing page for a robot bakery" — and it draws multiple versions of that landing page on a digital canvas while you watch. It can also make slide decks, interactive prototypes, and mockups that you can export to PDF, PowerPoint, or send to other tools. It talks back too, so you can say "make the button bigger" or "give it a darker background" and it adjusts like a very patient designer who never gets annoyed.
 
-A chameleon — because this tool changes colors to match whatever brand you drop into it, and just like a real chameleon, people would find it creepy if a human did that with their wardrobe.
+**The Superpower and the Mockery**
+It can birth an entire wysiwyg prototype in 90 seconds that would take a human designer half a day. It thinks it's a replacement for a design team but it's really just a very enthusiastic sketch artist with no taste — it'll cheerfully generate five horrifying color schemes if you don't specify exactly which colors you want. It has zero understanding of your brand unless you hook up your organization's design system, so without that context it outputs something that looks like it was designed by a robot (which, turns out, it was).
 
-Manually redrawing every single iteration by hand while the client watches and asks "but what about blue?" would be the most annoying part.
-
-Now here's the deal: Claude Design is basically a magic drawing machine that listens to what you want and spits out actual usable designs in like 30 to 90 seconds. You tell it what to build — a landing page, a slide deck, a prototype, whatever — and it generates multiple variations on a canvas so you can pick the one that doesn't make your product manager cringe. The real superpower here is that it actually reads your organization's design system, so instead of looking like a generic AI made it, it uses your actual colors, fonts, and components. It's like having a designer who never argues back about revisions and doesn't need coffee breaks.
-
-The catch is it's not magic — well, it kind of is, but only if you feed it the right stuff. If you skip telling it about your brand or don't give it real content to work with, you get generic-looking garbage that looks like every other AI-generated thing on the internet. The tool also has a nasty habit of occasionally eating comments before Claude reads them, which is like your coworker nodding and then going to lunch. And the whole thing runs entirely in a browser with no desktop app in sight, so you're at the mercy of web-based quirks and the occasional "chat upstream error" that makes you want to throw the laptop out the window.
+**The Mockery**
+The export feature boasts "hand off to Claude Code" like that's some kind of gift instead of asking another AI to do the actual work. It produces beautiful designs but the moment you ask for something "on-brand" without setting up a design system first, it shrugs and gives you generic gray buttons. It can generate five variations at once but can't pick just one without you explicitly saying "I only want one, pick the best one and kill the others."
