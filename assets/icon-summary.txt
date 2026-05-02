@@ -1,1 +1,11 @@
-This tool is like a magic drawing helper — you tell it what you want, like a webpage or a slide deck, and it draws it for you on a digital canvas. You can ask it to change colors, move things around, or try different styles just like asking a friend to redraw something slightly differently. When you like the result, you can save it as a file that other people can open and use.
+Designing
+
+A digital fab shop
+
+A chameleon — because this tool changes colors to match whatever brand you drop into it, and just like a real chameleon, people would find it creepy if a human did that with their wardrobe.
+
+Manually redrawing every single iteration by hand while the client watches and asks "but what about blue?" would be the most annoying part.
+
+Now here's the deal: Claude Design is basically a magic drawing machine that listens to what you want and spits out actual usable designs in like 30 to 90 seconds. You tell it what to build — a landing page, a slide deck, a prototype, whatever — and it generates multiple variations on a canvas so you can pick the one that doesn't make your product manager cringe. The real superpower here is that it actually reads your organization's design system, so instead of looking like a generic AI made it, it uses your actual colors, fonts, and components. It's like having a designer who never argues back about revisions and doesn't need coffee breaks.
+
+The catch is it's not magic — well, it kind of is, but only if you feed it the right stuff. If you skip telling it about your brand or don't give it real content to work with, you get generic-looking garbage that looks like every other AI-generated thing on the internet. The tool also has a nasty habit of occasionally eating comments before Claude reads them, which is like your coworker nodding and then going to lunch. And the whole thing runs entirely in a browser with no desktop app in sight, so you're at the mercy of web-based quirks and the occasional "chat upstream error" that makes you want to throw the laptop out the window.
