@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# tsx is fetched on demand via npx — never commit
+node_modules/
+package.json
+package-lock.json
+
+# editor cruft
+*.bak
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# logs
+*.log
+
+# environment / secrets
+.env
+.env.*

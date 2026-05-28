@@ -1,0 +1,14 @@
+interface:
+  display_name: GG → Claude Designer → Claude Design
+  short_description: >-
+    Guidance for creating shareable UI mockups, prototypes, landing pages, dashboards,
+    slide decks, and microsites in Claude Design (claude.ai/design).
+  icon_small: ./assets/icon-small.svg
+  icon_large: ./assets/icon-large.png
+  brand_color: '#6366F1'
+  default_prompt: >-
+    $claude-designer — Use when creating shareable UI mockups, prototypes, landing
+    pages, dashboards, slide decks, or microsites in Claude Design, or when handling
+    design-system inheritance, brand-on prototypes, exports (PDF/PPTX/HTML/Canva), or
+    troubleshooting. Reference claude-designer/SKILL.md when cross-referencing this
+    skill.
