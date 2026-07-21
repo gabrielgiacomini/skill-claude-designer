@@ -6,7 +6,7 @@
  * Verifies a Claude Designer operation against the 8-item Claude Designer Quality Checklist.
  * 
  * Usage:
- *   npx tsx skills/claude-designer/scripts/check-claude-designer-completeness.ts --phase <phase>
+ *   npx tsx .agents/skills/claude-designer/scripts/check-claude-designer-completeness.ts --phase <phase>
  */
 
 import { argv } from "process";
